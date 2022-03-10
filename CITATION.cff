@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: 'California Weather Web-Tool'
+date-released: 2021-01-27
+url: "https://github.com/Grain-Cropping-Systems-Lab/California-Weather-Web-Tool"
+message: Please cite this repository as detailed.
+type: GitHub repository
+authors:
+  - given-names: Taylor
+    family-names: Nelsen
+    email: tsnelsen@ucdavis.edu
+  - given-names: Justin
+    family-names: Merz
+    email: jrmerz@ucdavis.edu
+  - given-names: Gabriel
+    family-names: Rosa
+    email: grosa@ucdavis.edu  
+  - given-names: Mark
+    family-names: Lundy
+    email: melundy@ucdavis.edu
