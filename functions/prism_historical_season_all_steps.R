@@ -12,13 +12,9 @@
 #' 
 #' con <- DBI::dbConnect(
 #' RPostgres::Postgres(), 
-#' dbname = "mldatadb",
-#' host = "169.237.215.4", 
-#' port = 5432,
-#' user = Sys.getenv("userid"),
-#' password = Sys.getenv("pwd"),
-#' sslmode = 'require',
-#' options="-c search_path=grain,public"
+#' dbname = "X",
+#' host = "X", 
+#' port = 1234, ...
 #' )
 #' 
 #' @import dbplyr, RPostgres, DBI

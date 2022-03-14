@@ -42,19 +42,6 @@ total_water_plot <- function(weather_data, total_water, irrigation, present_data
 		colors = named_colors, linetypes = named_lines
 	)
 
-	# build a list of water lines
-	# irrigation_lines <- apply(as.data.frame(twd %>% filter(measurement == "irr")), 1, function(row) {
-	# 	list(
-	# 		type = "line",
-	# 		line = list(color = "red", width = 3),
-	# 		xref = "x", yref = "y",
-	# 		x0 = row['date'],
-	# 		x1 = as.Date(row['date']) + 1,
-	# 		y0 = as.numeric(row['water_cumsum']) - as.numeric(row['amount']),
-	# 		y1 = as.numeric(row['water_cumsum'])
-	# 	)
-	# })
-
 	# add the latest precip cumsum point as a forecast point so the lines match up
 	if(twd %>% filter(quality == 'forecast') %>% nrow() > 0) {
 		twd <- rbind(twd,
